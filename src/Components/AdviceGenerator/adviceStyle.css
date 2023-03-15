@@ -1,0 +1,84 @@
+
+
+.contStyle{
+    padding: 0;
+    width: 100%;
+    /* overflow: hidden; */
+
+}
+.btnStyle{
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 80%;
+    justify-content: center;
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    margin-top: 290px;
+    align-items: center;
+    border: none;
+}
+
+.btnStyle:hover{
+  box-shadow: 0px 0px 30px 10px hsl(150, 100%, 66%);
+
+}
+
+.idTxt{
+    font-size: 14px;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.adviceTxt{
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+    font-family: 'Manrope', normal;
+}
+.CardStyle{
+    height: 320px;
+    width: 500px;
+    justify-content: center;
+    display: flex;
+    background-color: hsl(217, 19%, 24%);
+    
+    margin-top: 10rem;
+    border-radius: 10px;
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.txtBox{
+    width: 30rem;
+    text-align: center;
+}
+.lineStyle{
+   margin-left: 1rem;
+
+}
+
+.rowStyle{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+@media (max-width:375px ){
+    .CardStyle{
+        height: 30rem;
+    }
+    .txtBox{
+        width: 20rem;
+    }
+    .lineStyle{
+        width: 200px;
+    }
+
+    .btnStyle{
+        margin-top: 28rem;
+    }
+}
