@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./adviceStyle.css";
 
 export default function AdviceComp() {
@@ -10,6 +10,9 @@ export default function AdviceComp() {
     const adData = await res.json();
     setAData(adData);
   };
+  useEffect(() => {
+    adviceData();
+  }, []);
 
   return (
     <>
